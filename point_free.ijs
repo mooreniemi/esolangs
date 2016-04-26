@@ -1,5 +1,10 @@
 NB. defining with everything bound
+NB. =: is a global variable
 nums =: 4 5 6 8 2 3
+NB. the left side returns 0 0 1 1 0 0
+NB. the right side returns 0 1 2 3 4 5
+NB. dyadic tally copies all Trues
+NB. ie. 0 1 0 # 1 2 3 => 2
 (nums > 5) # (i. # nums)
 
 NB. for monadic functions y
