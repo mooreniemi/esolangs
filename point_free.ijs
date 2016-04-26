@@ -25,4 +25,4 @@ NB. but we can also cheat using 13 :
 13 : '(x > y) # (i. # x)'
 NB. which is actually equivalent to
 NB. > # @: i. @: # [
-get_positions_over =: > # [: i. [: # [
+get_positions_of_over =: > # [: i. [: # [
