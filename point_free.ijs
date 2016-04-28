@@ -28,6 +28,7 @@ NB. now we have 2 tacit free variables
 NB. we need to split off left and right
 NB. but we can also cheat using 13 :
 13 : '(x > y) # (i. # x)'
-NB. which is actually equivalent to
+NB. which is almost equivalent to
 NB. > # @: i. @: # [
 get_positions_of_over =: > # [: i. [: # [
+get_first_position_of_over =: > # @: i. @: # [
