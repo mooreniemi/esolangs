@@ -31,4 +31,3 @@ NB. but we can also cheat using 13 :
 NB. which is almost equivalent to
 NB. > # @: i. @: # [
 get_positions_of_over =: > # [: i. [: # [
-get_first_position_of_over =: > # @: i. @: # [
